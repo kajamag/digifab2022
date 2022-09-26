@@ -1,0 +1,95 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: verdana, sans-serif;
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+#page-header{
+	grid-area:  header;
+ 	font-family: garamond, serif;
+ 	background: url(header.jpg);
+ 	max-width: 100%;
+    height:200px;
+    text-align: center;
+}
+
+
+#grid-container{
+	background-color: lightpink;
+	max-width: 1000px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-areas: 	"header header header" /*første rad*/
+							"nav nav nav" /*andre rad*/
+							"main main aside" /*tredje rad*/
+							"footer footer footer"; /*fjerde rad*/
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto auto;
+	grid-row-gap: 10px;
+	grid-column-gap: 10px;
+}
+
+nav{
+	grid-area: nav;
+	display: flex;
+	justify-content: space-between;
+	background-color: hotpink;
+	text-decoration: none;
+	color: black;
+}
+
+nav li{
+	display: inline-block;
+	margin: 0 1rem 0 0;
+
+}
+
+nav li a{
+	text-decoration: none;
+	color: black;
+}
+
+nav li a:hover{
+	text-decoration: underline;
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+	gap:  1rem;
+	margin:  10px;
+	padding: 10px;
+}
+
+main{
+	grid-area:  main;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+article{
+	background-color: white;
+	padding: 2rem;
+	flex: 1;
+	gap: 10px;
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+footer{
+	grid-area: footer;
+	background-color: hotpink;
+	padding: 2rem;
+}
