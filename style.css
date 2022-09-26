@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
-$color-green: #607346;
-$color-lightgreen: #e1f2ce;
-
 *{
 	box-sizing: border-box;
 }
 
 html{
-	background-color: $color-lightgreen;
+	background-color: greenyellow;
 }
 
 body{
@@ -17,7 +14,7 @@ body{
 
 h1 a{
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 h1 a:hover{
@@ -26,7 +23,7 @@ h1 a:hover{
 }
 
 h2{
-	color: $color-green;
+	color: green;
 }
 
 figcaption{
@@ -56,7 +53,7 @@ figcaption{
 }
 
 nav{
-	background-color: $color-green;
+	background-color: green;
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
@@ -77,7 +74,7 @@ nav li a{
 nav li a:hover{
 	text-decoration: none;
 	color: black;
-	background-color: $color-lightgreen;
+	background-color: greenyellow;
 	padding: 1rem;
 	border-radius: 10px;
 }
@@ -104,7 +101,7 @@ article{
 	flex-grow: 1;
 	min-width: 350px;
 	border: solid;
-	border-color: $color-green;
+	border-color: green;
 	border-radius: 10px 10px;
 }
 
@@ -122,7 +119,7 @@ footer{
 	grid-area: footer;
 	padding: 1rem;
 	text-align: center;
-	background-color: $color-green;
+	background-color: green;
 	line-height: 200%;
 	color: white;
 }
@@ -139,7 +136,7 @@ footer a{
 	}
 
 	h1 a:hover{
-		color: $color-green;
+		color: green;
 		text-decoration: underline;
 	}
 
