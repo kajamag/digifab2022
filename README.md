@@ -1,4 +1,4 @@
-# digifab2022
+# Prosjekt digifab
 Prosjekter i emnet Digifab v/ HIØ
 
 Oppgaven er som følger:
@@ -9,3 +9,5 @@ Repoet skal ha oversikt over alle prosjekter, alle prosjekt-filer skal også væ
 Utover dette skal dere lage en kort presentasjon av dere selv. 
 
 Nøkkelordet her er basis... (-:
+
+https://www.hiof.no/studier/emner/iio/itk/2022/host/itf50020.html
