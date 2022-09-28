@@ -14,7 +14,7 @@ html{
 body{
 	font-family: Quicksand, sans-serif;
 	background-color: white;
-	opacity: 0.85;
+	opacity: 0.80;
 }
 
 h1 a{
@@ -25,7 +25,7 @@ h1 a{
 h1 a:hover{
 	text-decoration: none;
 	color: black;
-	background-color: white;
+	background-color: pink;
 	padding: 1rem;
 	border-radius: 10px;
 }
@@ -87,14 +87,6 @@ main{
 	padding: 1.5rem;
 }
 
-.flex-container{
-
-	display: flex;
-	justify-content: space-between;
-	gap: 15px;
-	flex-wrap: wrap;
-}
-
 a{
 	text-decoration: underline;
 	color: black;
@@ -105,11 +97,15 @@ a:hover{
 	text-decoration: none;
 }
 
+#epost{
+	color: black;
+}
+
 footer{
 	grid-area: footer;
 	padding: 1rem;
 	text-align: center;
-	line-height: 200%;
+	line-height: 150%;
 }
 
 footer a{
