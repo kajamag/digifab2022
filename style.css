@@ -14,7 +14,7 @@ html{
 body{
 	font-family: Quicksand, sans-serif;
 	background-color: white;
-	opacity: 0.80;
+	opacity: 0.85;
 }
 
 h1 a{
@@ -28,10 +28,6 @@ h1 a:hover{
 	background-color: pink;
 	padding: 1rem;
 	border-radius: 10px;
-}
-
-h2{
-	min-width: 100%;
 }
 
 #grid-container{
@@ -55,7 +51,6 @@ h2{
 	max-width: 100%;
 	grid-area: menu;
 }
-
 
 nav{
 	display: flex;
@@ -105,7 +100,6 @@ footer{
 	grid-area: footer;
 	padding: 1rem;
 	text-align: center;
-	line-height: 150%;
 }
 
 footer a{
