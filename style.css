@@ -6,7 +6,7 @@
 
 html{
 	background-color: blanchedalmond;
-	background-image: url("/pictures/park.jpg");
+	background-image: url("pictures/park.jpg");
 	background-repeat: no-repeat;
 	background-position: 60% 0%;
 }
