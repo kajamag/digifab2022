@@ -5,16 +5,15 @@
 }
 
 html{
-	background-color: blanchedalmond;
+	background-color: rgb(106, 185, 255);
 	background-image: url("pictures/park.jpg");
 	background-repeat: no-repeat;
-	background-position: 60% 0%;
 }
 
 body{
 	font-family: Quicksand, sans-serif;
-	background-color: white;
-	opacity: 0.85;
+	background-color: rgb(255, 206, 188);
+	opacity: 0.75;
 }
 
 h1 a{
