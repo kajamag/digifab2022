@@ -4,22 +4,17 @@
 	box-sizing: border-box;
 }
 
-/*html{
-	background-image: url("pictures/hald1.jpg");
-	background-repeat: no-repeat;
-	background-position: 50% 0%;
-	
+html{
+	background-color: pink;
 }
-*/
 
 body{
 	font-family: Quicksand, sans-serif;
-	width: 100%;
+	background-color: white;
 }
 
 h1 a{
 	padding: 1rem;
-	background-color: pink;
 	border-radius: 10px;
 	text-decoration: none;
 }
@@ -39,7 +34,6 @@ figcaption{
 
 #grid-container{
 	display: grid;
-	max-width: 900px;
 	grid-template-rows: auto;
 	grid-template-areas: 	"home"
 							"menu"
@@ -99,12 +93,12 @@ main{
 
 article{
 	flex-basis: 20%;
-	background-color: white;
 	padding: 1rem;
 	flex-grow: 1;
 	min-width: 400px;
-	border: solid;
-	border-radius: 10px 10px;
+	border: dotted;
+	border-radius: 3px 3px;
+	border-color: pink;
 }
 
 a{
@@ -117,19 +111,12 @@ a:hover{
 	text-decoration: none;
 }
 
-#epost{
-	color: black;
-}
-
 footer{
 	grid-area: footer;
 	padding: 1rem;
 	text-align: center;
 }
 
-footer a{
-	color: white;
-}
 
 @media only screen and (min-width: 660px){
 
